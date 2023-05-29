@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hola desde mi primera vista 🎹")
 
-def index(request):
+def author(request):
     return HttpResponse("Autor: Alejandro Avendaño")
